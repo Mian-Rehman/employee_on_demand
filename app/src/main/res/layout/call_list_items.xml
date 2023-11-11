@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/_callListUsernameItem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="2dp"
+        android:fontFamily="@font/keepcalm_medium"
+        android:text="Username"
+        android:textColor="@color/myFav"
+        android:textSize="16sp"
+        app:layout_constraintStart_toEndOf="@+id/_callListProfileItem"
+        app:layout_constraintTop_toTopOf="@+id/_callListProfileItem" />
+
+    <TextView
+        android:id="@+id/_callListTimeItem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/keepcalm_medium"
+        android:text="Call Time"
+        android:textColor="@color/myFav"
+        android:textSize="12sp"
+        app:layout_constraintStart_toStartOf="@+id/_callListUsernameItem"
+        app:layout_constraintTop_toBottomOf="@+id/_callListUsernameItem" />
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/_callListProfileItem"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center_vertical"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/imagebackfile"
+        android:padding="3dp"
+        android:src="@drawable/ic_enter_profile_icon"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:shapeAppearanceOverlay="@style/Circular"
+        app:strokeColor="@color/myFavTealLight"
+        app:strokeWidth="3dp"
+        tools:ignore="MissingConstraints" />
+
+    <View
+        android:id="@+id/view7"
+        android:layout_width="0dp"
+        android:layout_height="1dp"
+        android:alpha="0.5"
+        android:background="@color/myFav"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/_callListTypeItem"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintBottom_toBottomOf="@+id/_callListProfileItem"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/_callListProfileItem" />
+</androidx.constraintlayout.widget.ConstraintLayout>

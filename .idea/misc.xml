@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/8. Android Complete Projects/EmployeeOnDemand/app/src/main/res/drawable/ac_serviece.xml" value="0.129" />
+        <entry key="..\:/8. Android Complete Projects/EmployeeOnDemand/app/src/main/res/layout/activity_login.xml" value="0.153125" />
+        <entry key="..\:/8. Android Complete Projects/EmployeeOnDemand/app/src/main/res/layout/activity_main.xml" value="0.153125" />
+        <entry key="..\:/8. Android Complete Projects/EmployeeOnDemand/app/src/main/res/layout/activity_rfiactivity.xml" value="0.153125" />
+        <entry key="..\:/8. Android Complete Projects/EmployeeOnDemand/app/src/main/res/layout/activity_user_map.xml" value="0.153125" />
+        <entry key="..\:/Users/Bot/AndroidStudioProjects/EmployeeOnDemand/app/src/main/res/drawable/ac_serviece.xml" value="0.13958333333333334" />
+        <entry key="..\:/Users/Bot/AndroidStudioProjects/EmployeeOnDemand/app/src/main/res/drawable/auto_repair_service.xml" value="0.13958333333333334" />
+        <entry key="..\:/Users/Bot/AndroidStudioProjects/EmployeeOnDemand/app/src/main/res/drawable/babysitter_service.xml" value="0.13958333333333334" />
+        <entry key="..\:/Users/Bot/AndroidStudioProjects/EmployeeOnDemand/app/src/main/res/drawable/background_file.xml" value="0.13958333333333334" />
+        <entry key="..\:/Users/Bot/AndroidStudioProjects/EmployeeOnDemand/app/src/main/res/drawable/bike_repaire_service.xml" value="0.13958333333333334" />
+        <entry key="..\:/Users/Bot/AndroidStudioProjects/EmployeeOnDemand/app/src/main/res/drawable/blocklst_background.xml" value="0.1326388888888889" />
+        <entry key="..\:/Users/Bot/AndroidStudioProjects/EmployeeOnDemand/app/src/main/res/drawable/button_background.xml" value="0.16332046332046332" />
+        <entry key="..\:/Users/Bot/AndroidStudioProjects/EmployeeOnDemand/app/src/main/res/drawable/buttonbgfile.xml" value="0.1" />
+        <entry key="..\:/Users/Bot/AndroidStudioProjects/EmployeeOnDemand/app/src/main/res/drawable/buttonfocusedstatefile.xml" value="0.16332046332046332" />
+        <entry key="..\:/Users/Bot/AndroidStudioProjects/EmployeeOnDemand/app/src/main/res/drawable/buttonpressedstatefile.xml" value="0.16332046332046332" />
+        <entry key="..\:/Users/Bot/AndroidStudioProjects/EmployeeOnDemand/app/src/main/res/drawable/call_list_videocam_24.xml" value="0.2169230769230769" />
+        <entry key="..\:/Users/Bot/AndroidStudioProjects/EmployeeOnDemand/app/src/main/res/drawable/calloptionbgfile.xml" value="0.14" />
+        <entry key="..\:/Users/Bot/AndroidStudioProjects/EmployeeOnDemand/app/src/main/res/drawable/car_wash_service.xml" value="0.13958333333333334" />
+        <entry key="..\:/Users/Bot/AndroidStudioProjects/EmployeeOnDemand/app/src/main/res/drawable/caretaker_service.xml" value="0.13958333333333334" />
+        <entry key="..\:/Users/Bot/AndroidStudioProjects/EmployeeOnDemand/app/src/main/res/drawable/carpenter_service.xml" value="0.13958333333333334" />
+        <entry key="..\:/Users/Bot/AndroidStudioProjects/EmployeeOnDemand/app/src/main/res/drawable/contract_item_top_background.xml" value="0.1326388888888889" />
+        <entry key="..\:/Users/Bot/AndroidStudioProjects/EmployeeOnDemand/app/src/main/res/drawable/doctor_service.xml" value="0.13958333333333334" />
+        <entry key="..\:/Users/Bot/AndroidStudioProjects/EmployeeOnDemand/app/src/main/res/drawable/edittext_background.xml" value="0.16332046332046332" />
+        <entry key="..\:/Users/Bot/AndroidStudioProjects/EmployeeOnDemand/app/src/main/res/drawable/electrician_service.xml" value="0.13958333333333334" />
+        <entry key="..\:/Users/Bot/AndroidStudioProjects/EmployeeOnDemand/app/src/main/res/drawable/feedbackbgfile.xml" value="0.19907407407407407" />
+        <entry key="..\:/Users/Bot/AndroidStudioProjects/EmployeeOnDemand/app/src/main/res/drawable/generate_contract_background.xml" value="0.15833333333333333" />
+        <entry key="..\:/Users/Bot/AndroidStudioProjects/EmployeeOnDemand/app/src/main/res/drawable/home_maid_service.xml" value="0.13958333333333334" />
+        <entry key="..\:/Users/Bot/AndroidStudioProjects/EmployeeOnDemand/app/src/main/res/drawable/home_tutor.xml" value="0.13958333333333334" />
+        <entry key="..\:/Users/Bot/AndroidStudioProjects/EmployeeOnDemand/app/src/main/res/drawable/ic_address_icon.xml" value="0.1423611111111111" />
+        <entry key="..\:/Users/Bot/AndroidStudioProjects/EmployeeOnDemand/app/src/main/res/drawable/ic_baseline_add_circle_outline_24.xml" value="0.18981481481481483" />
+        <entry key="..\:/Users/Bot/AndroidStudioProjects/EmployeeOnDemand/app/src/main/res/drawable/ic_baseline_arrow_back_24.xml" value="0.21481481481481482" />
+        <entry key="..\:/Users/Bot/AndroidStudioProjects/EmployeeOnDemand/app/src/main/res/drawable/ic_baseline_arrow_drop_down_24.xml" value="0.18981481481481483" />
+        <entry key="..\:/Users/Bot/AndroidStudioProjects/EmployeeOnDemand/app/src/main/res/drawable/ic_baseline_attach_file_24.xml" value="0.1423611111111111" />
+        <entry key="..\:/Users/Bot/AndroidStudioProjects/EmployeeOnDemand/app/src/main/res/drawable/ic_baseline_attach_money_24.xml" value="0.18981481481481483" />
+        <entry key="..\:/Users/Bot/AndroidStudioProjects/EmployeeOnDemand/app/src/main/res/drawable/ic_baseline_attach_money_bold.xml" value="0.1326388888888889" />
+        <entry key="..\:/Users/Bot/AndroidStudioProjects/EmployeeOnDemand/app/src/main/res/drawable/ic_baseline_block_24.xml" value="0.17037037037037037" />
+        <entry key="..\:/Users/Bot/AndroidStudioProjects/EmployeeOnDemand/app/src/main/res/drawable/ic_baseline_calendar_today_24.xml" value="0.18981481481481483" />
+        <entry key="..\:/Users/Bot/AndroidStudioProjects/EmployeeOnDemand/app/src/main/res/drawable/ic_baseline_call_24.xml" value="0.20185185185185187" />
+        <entry key="..\:/Users/Bot/AndroidStudioProjects/EmployeeOnDemand/app/src/main/res/drawable/ic_baseline_camera_24.xml" value="0.15833333333333333" />
+        <entry key="..\:/Users/Bot/AndroidStudioProjects/EmployeeOnDemand/app/src/main/res/drawable/ic_baseline_create_24.xml" value="0.18981481481481483" />
+        <entry key="..\:/Users/Bot/AndroidStudioProjects/EmployeeOnDemand/app/src/main/res/drawable/ic_baseline_feedback_24.xml" value="0.2203125" />
+        <entry key="..\:/Users/Bot/AndroidStudioProjects/EmployeeOnDemand/app/src/main/res/drawable/ic_baseline_home_24.xml" value="0.18981481481481483" />
+        <entry key="..\:/Users/Bot/AndroidStudioProjects/EmployeeOnDemand/app/src/main/res/drawable/ic_baseline_keyboard_24.xml" value="0.15833333333333333" />
+        <entry key="..\:/Users/Bot/AndroidStudioProjects/EmployeeOnDemand/app/src/main/res/drawable/ic_baseline_local_phone_24.xml" value="0.18981481481481483" />
+        <entry key="..\:/Users/Bot/AndroidStudioProjects/EmployeeOnDemand/app/src/main/res/drawable/ic_baseline_message_24.xml" value="0.18981481481481483" />
+        <entry key="..\:/Users/Bot/AndroidStudioProjects/EmployeeOnDemand/app/src/main/res/drawable/ic_baseline_mic_off_24.xml" value="0.1423611111111111" />
+        <entry key="..\:/Users/Bot/AndroidStudioProjects/EmployeeOnDemand/app/src/main/res/drawable/ic_baseline_notifications_active_24.xml" value="0.18981481481481483" />
+        <entry key="..\:/Users/Bot/AndroidStudioProjects/EmployeeOnDemand/app/src/main/res/drawable/ic_baseline_photo_camera_24.xml" value="0.15625" />
+        <entry key="..\:/Users/Bot/AndroidStudioProjects/EmployeeOnDemand/app/src/main/res/drawable/ic_baseline_search_24.xml" value="0.1527777777777778" />
+        <entry key="..\:/Users/Bot/AndroidStudioProjects/EmployeeOnDemand/app/src/main/res/drawable/ic_baseline_send_24.xml" value="0.1423611111111111" />
+        <entry key="..\:/Users/Bot/AndroidStudioProjects/EmployeeOnDemand/app/src/main/res/drawable/ic_baseline_star_24.xml" value="0.18981481481481483" />
+        <entry key="..\:/Users/Bot/AndroidStudioProjects/EmployeeOnDemand/app/src/main/res/drawable/ic_baseline_videocam_24.xml" value="0.2169230769230769" />
+        <entry key="..\:/Users/Bot/AndroidStudioProjects/EmployeeOnDemand/app/src/main/res/drawable/ic_baseline_volume_up_24.xml" value="0.1423611111111111" />
+        <entry key="..\:/Users/Bot/AndroidStudioProjects/EmployeeOnDemand/app/src/main/res/drawable/ic_baseline_warning_24.xml" value="0.1423611111111111" />
+        <entry key="..\:/Users/Bot/AndroidStudioProjects/EmployeeOnDemand/app/src/main/res/drawable/ic_cnic_icon.xml" value="0.1423611111111111" />
+        <entry key="..\:/Users/Bot/AndroidStudioProjects/EmployeeOnDemand/app/src/main/res/drawable/ic_contracticon.xml" value="0.1125" />
+        <entry key="..\:/Users/Bot/AndroidStudioProjects/EmployeeOnDemand/app/src/main/res/drawable/ic_date_of_birth_icon.xml" value="0.1423611111111111" />
+        <entry key="..\:/Users/Bot/AndroidStudioProjects/EmployeeOnDemand/app/src/main/res/drawable/ic_description_icon.xml" value="0.1423611111111111" />
+        <entry key="..\:/Users/Bot/AndroidStudioProjects/EmployeeOnDemand/app/src/main/res/drawable/ic_enter_image_icon.xml" value="0.1423611111111111" />
+        <entry key="..\:/Users/Bot/AndroidStudioProjects/EmployeeOnDemand/app/src/main/res/drawable/ic_enter_profile_icon.xml" value="0.15833333333333333" />
+        <entry key="..\:/Users/Bot/AndroidStudioProjects/EmployeeOnDemand/app/src/main/res/drawable/ic_enter_rate_icon.xml" value="0.1423611111111111" />
+        <entry key="..\:/Users/Bot/AndroidStudioProjects/EmployeeOnDemand/app/src/main/res/drawable/ic_keyboard_icon.xml" value="0.1423611111111111" />
+        <entry key="..\:/Users/Bot/AndroidStudioProjects/EmployeeOnDemand/app/src/main/res/drawable/ic_launcher_background.xml" value="0.18981481481481483" />
+        <entry key="..\:/Users/Bot/AndroidStudioProjects/EmployeeOnDemand/app/src/main/res/drawable/ic_lock_icon.xml" value="0.1423611111111111" />
+        <entry key="..\:/Users/Bot/AndroidStudioProjects/EmployeeOnDemand/app/src/main/res/drawable/ic_man_icon.xml" value="0.1423611111111111" />
+        <entry key="..\:/Users/Bot/AndroidStudioProjects/EmployeeOnDemand/app/src/main/res/drawable/ic_manicon.xml" value="0.18981481481481483" />
+        <entry key="..\:/Users/Bot/AndroidStudioProjects/EmployeeOnDemand/app/src/main/res/drawable/ic_passwordicon.xml" value="0.18981481481481483" />
+        <entry key="..\:/Users/Bot/AndroidStudioProjects/EmployeeOnDemand/app/src/main/res/drawable/ic_phone_icon.xml" value="0.1423611111111111" />
+        <entry key="..\:/Users/Bot/AndroidStudioProjects/EmployeeOnDemand/app/src/main/res/drawable/ic_sendicon.xml" value="0.2169230769230769" />
+        <entry key="..\:/Users/Bot/AndroidStudioProjects/EmployeeOnDemand/app/src/main/res/drawable/imagebackfile.xml" value="0.1" />
+        <entry key="..\:/Users/Bot/AndroidStudioProjects/EmployeeOnDemand/app/src/main/res/drawable/labour_service.xml" value="0.13958333333333334" />
+        <entry key="..\:/Users/Bot/AndroidStudioProjects/EmployeeOnDemand/app/src/main/res/drawable/laundry_service.xml" value="0.13958333333333334" />
+        <entry key="..\:/Users/Bot/AndroidStudioProjects/EmployeeOnDemand/app/src/main/res/drawable/lawyer.xml" value="0.1" />
+        <entry key="..\:/Users/Bot/AndroidStudioProjects/EmployeeOnDemand/app/src/main/res/drawable/layout_background.xml" value="0.16332046332046332" />
+        <entry key="..\:/Users/Bot/AndroidStudioProjects/EmployeeOnDemand/app/src/main/res/drawable/layout_strock.xml" value="0.18888888888888888" />
+        <entry key="..\:/Users/Bot/AndroidStudioProjects/EmployeeOnDemand/app/src/main/res/drawable/layout_text.xml" value="0.18888888888888888" />
+        <entry key="..\:/Users/Bot/AndroidStudioProjects/EmployeeOnDemand/app/src/main/res/drawable/loginbgfile.xml" value="0.2169230769230769" />
+        <entry key="..\:/Users/Bot/AndroidStudioProjects/EmployeeOnDemand/app/src/main/res/drawable/message_receive_item.xml" value="0.19444444444444445" />
+        <entry key="..\:/Users/Bot/AndroidStudioProjects/EmployeeOnDemand/app/src/main/res/drawable/message_sent_item.xml" value="0.19444444444444445" />
+        <entry key="..\:/Users/Bot/AndroidStudioProjects/EmployeeOnDemand/app/src/main/res/drawable/painter_service.xml" value="0.13958333333333334" />
+        <entry key="..\:/Users/Bot/AndroidStudioProjects/EmployeeOnDemand/app/src/main/res/drawable/plumber_service.xml" value="0.13958333333333334" />
+        <entry key="..\:/Users/Bot/AndroidStudioProjects/EmployeeOnDemand/app/src/main/res/drawable/post_button_background.xml" value="0.1326388888888889" />
+        <entry key="..\:/Users/Bot/AndroidStudioProjects/EmployeeOnDemand/app/src/main/res/drawable/post_edittext_background.xml" value="0.15625" />
+        <entry key="..\:/Users/Bot/AndroidStudioProjects/EmployeeOnDemand/app/src/main/res/drawable/profile_background.xml" value="0.16332046332046332" />
+        <entry key="..\:/Users/Bot/AndroidStudioProjects/EmployeeOnDemand/app/src/main/res/drawable/search_services_background.xml" value="0.1326388888888889" />
+        <entry key="..\:/Users/Bot/AndroidStudioProjects/EmployeeOnDemand/app/src/main/res/drawable/send_message_background.xml" value="0.15833333333333333" />
+        <entry key="..\:/Users/Bot/AndroidStudioProjects/EmployeeOnDemand/app/src/main/res/drawable/shaddow.xml" value="0.16332046332046332" />
+        <entry key="..\:/Users/Bot/AndroidStudioProjects/EmployeeOnDemand/app/src/main/res/drawable/textbgfile.xml" value="0.1" />
+        <entry key="..\:/Users/Bot/AndroidStudioProjects/EmployeeOnDemand/app/src/main/res/drawable/view_user_profile_background.xml" value="0.25" />
+        <entry key="..\:/Users/Bot/AndroidStudioProjects/EmployeeOnDemand/app/src/main/res/layout/activity_block_list.xml" value="0.18" />
+        <entry key="..\:/Users/Bot/AndroidStudioProjects/EmployeeOnDemand/app/src/main/res/layout/activity_blocked_profile.xml" value="0.18802083333333333" />
+        <entry key="..\:/Users/Bot/AndroidStudioProjects/EmployeeOnDemand/app/src/main/res/layout/activity_call.xml" value="0.43291839557399725" />
+        <entry key="..\:/Users/Bot/AndroidStudioProjects/EmployeeOnDemand/app/src/main/res/layout/activity_chat.xml" value="0.16" />
+        <entry key="..\:/Users/Bot/AndroidStudioProjects/EmployeeOnDemand/app/src/main/res/layout/activity_chat_list.xml" value="0.14" />
+        <entry key="..\:/Users/Bot/AndroidStudioProjects/EmployeeOnDemand/app/src/main/res/layout/activity_contract.xml" value="0.16" />
+        <entry key="..\:/Users/Bot/AndroidStudioProjects/EmployeeOnDemand/app/src/main/res/layout/activity_create_post.xml" value="0.2" />
+        <entry key="..\:/Users/Bot/AndroidStudioProjects/EmployeeOnDemand/app/src/main/res/layout/activity_edit_profile.xml" value="0.18" />
+        <entry key="..\:/Users/Bot/AndroidStudioProjects/EmployeeOnDemand/app/src/main/res/layout/activity_feedback.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Bot/AndroidStudioProjects/EmployeeOnDemand/app/src/main/res/layout/activity_incoming_call.xml" value="0.15" />
+        <entry key="..\:/Users/Bot/AndroidStudioProjects/EmployeeOnDemand/app/src/main/res/layout/activity_join_call_actvity.xml" value="0.21" />
+        <entry key="..\:/Users/Bot/AndroidStudioProjects/EmployeeOnDemand/app/src/main/res/layout/activity_login.xml" value="0.16" />
+        <entry key="..\:/Users/Bot/AndroidStudioProjects/EmployeeOnDemand/app/src/main/res/layout/activity_main.xml" value="0.22" />
+        <entry key="..\:/Users/Bot/AndroidStudioProjects/EmployeeOnDemand/app/src/main/res/layout/activity_my_contracts.xml" value="0.1" />
+        <entry key="..\:/Users/Bot/AndroidStudioProjects/EmployeeOnDemand/app/src/main/res/layout/activity_notification.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Bot/AndroidStudioProjects/EmployeeOnDemand/app/src/main/res/layout/activity_out_going_call.xml" value="0.16" />
+        <entry key="..\:/Users/Bot/AndroidStudioProjects/EmployeeOnDemand/app/src/main/res/layout/activity_post.xml" value="0.14" />
+        <entry key="..\:/Users/Bot/AndroidStudioProjects/EmployeeOnDemand/app/src/main/res/layout/activity_reset_password.xml" value="0.13" />
+        <entry key="..\:/Users/Bot/AndroidStudioProjects/EmployeeOnDemand/app/src/main/res/layout/activity_search_services.xml" value="0.16" />
+        <entry key="..\:/Users/Bot/AndroidStudioProjects/EmployeeOnDemand/app/src/main/res/layout/activity_service_provider_list.xml" value="0.16" />
+        <entry key="..\:/Users/Bot/AndroidStudioProjects/EmployeeOnDemand/app/src/main/res/layout/activity_service_provider_profile.xml" value="0.14" />
+        <entry key="..\:/Users/Bot/AndroidStudioProjects/EmployeeOnDemand/app/src/main/res/layout/activity_sign_up.xml" value="0.12" />
+        <entry key="..\:/Users/Bot/AndroidStudioProjects/EmployeeOnDemand/app/src/main/res/layout/activity_user_profile.xml" value="0.12" />
+        <entry key="..\:/Users/Bot/AndroidStudioProjects/EmployeeOnDemand/app/src/main/res/layout/activity_view_image.xml" value="0.11458333333333333" />
+        <entry key="..\:/Users/Bot/AndroidStudioProjects/EmployeeOnDemand/app/src/main/res/layout/call_list_items.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Bot/AndroidStudioProjects/EmployeeOnDemand/app/src/main/res/layout/chat_list_items.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Bot/AndroidStudioProjects/EmployeeOnDemand/app/src/main/res/layout/contract_items.xml" value="0.16" />
+        <entry key="..\:/Users/Bot/AndroidStudioProjects/EmployeeOnDemand/app/src/main/res/layout/feedback_items.xml" value="0.16" />
+        <entry key="..\:/Users/Bot/AndroidStudioProjects/EmployeeOnDemand/app/src/main/res/layout/fragment_sp_profile.xml" value="0.2" />
+        <entry key="..\:/Users/Bot/AndroidStudioProjects/EmployeeOnDemand/app/src/main/res/layout/fragment_user_profile.xml" value="0.1" />
+        <entry key="..\:/Users/Bot/AndroidStudioProjects/EmployeeOnDemand/app/src/main/res/layout/list_items.xml" value="0.16296296296296298" />
+        <entry key="..\:/Users/Bot/AndroidStudioProjects/EmployeeOnDemand/app/src/main/res/layout/notification_items.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Bot/AndroidStudioProjects/EmployeeOnDemand/app/src/main/res/layout/notificationitems.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Bot/AndroidStudioProjects/EmployeeOnDemand/app/src/main/res/layout/post_items.xml" value="0.25" />
+        <entry key="..\:/Users/Bot/AndroidStudioProjects/EmployeeOnDemand/app/src/main/res/layout/post_spinner_style.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Bot/AndroidStudioProjects/EmployeeOnDemand/app/src/main/res/layout/receive_message_items.xml" value="0.5" />
+        <entry key="..\:/Users/Bot/AndroidStudioProjects/EmployeeOnDemand/app/src/main/res/layout/sent_message_item.xml" value="0.22" />
+        <entry key="..\:/Users/Bot/AndroidStudioProjects/EmployeeOnDemand/app/src/main/res/layout/spinner_style_file.xml" value="0.18" />
+        <entry key="..\:/Users/Bot/AndroidStudioProjects/EmployeeOnDemand/app/src/main/res/layout/user_items.xml" value="0.12" />
+        <entry key="..\:/Users/Bot/AndroidStudioProjects/EmployeeOnDemand/app/src/main/res/menu/profile_activity_menu.xml" value="0.1787037037037037" />
+        <entry key="..\:/Users/Bot/AndroidStudioProjects/EmployeeOnDemand/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/Bot/AndroidStudioProjects/EmployeeOnDemand/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/Bot/AppData/Local/Android/Sdk/platforms/android-30/data/res/layout/simple_spinner_dropdown_item.xml" value="0.2" />
+        <entry key="..\:/Users/dboy3/AndroidStudioProjects/EmployeeOnDemand/app/src/main/res/drawable/buttonbgfile.xml" value="0.2203125" />
+        <entry key="..\:/Users/dboy3/AndroidStudioProjects/EmployeeOnDemand/app/src/main/res/drawable/textbgfile.xml" value="0.2203125" />
+        <entry key="..\:/Users/dboy3/AndroidStudioProjects/EmployeeOnDemand/app/src/main/res/layout/activity_main.xml" value="0.16" />
+        <entry key="..\:/Users/dboy3/AndroidStudioProjects/EmployeeOnDemand/app/src/main/res/layout/activity_sign_up.xml" value="0.22" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" project-jdk-name="jbr-17" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

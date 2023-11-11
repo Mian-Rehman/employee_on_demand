@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activities.SearchServicesActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="0dp"
+                android:layout_height="75dp"
+                android:background="@drawable/background_file"
+                android:fontFamily="@font/keepcalm_medium"
+                android:gravity="center"
+                android:text="Services"
+                android:textColor="@color/white"
+                android:textSize="26sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageView
+                android:id="@+id/_servicesBackButton"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_marginStart="12dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/ic_baseline_arrow_back_24"
+                tools:ignore="VectorDrawableCompat" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.gridlayout.widget.GridLayout
+            android:id="@+id/_servicesContainer"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center|fill"
+            android:layout_marginTop="5dp"
+            android:layout_weight="1"
+            android:foregroundGravity="center|fill"
+            app:columnCount="4"
+            app:rowCount="6">
+
+            <ImageView
+                android:id="@+id/_homeTutorService"
+                android:layout_width="100dp"
+                android:layout_height="120dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="8dp"
+                android:foregroundGravity="center|fill"
+                android:tag="Home Tutor"
+                app:layout_column="0"
+                app:layout_columnWeight="1"
+                app:layout_gravity="center|fill"
+                app:layout_row="0"
+                app:layout_rowWeight="1"
+                app:srcCompat="@drawable/home_tutor_service" />
+
+            <ImageView
+                android:id="@+id/_doctorService"
+                android:layout_width="100dp"
+                android:layout_height="120dp"
+                android:layout_marginTop="8dp"
+                android:foregroundGravity="fill"
+                android:tag="Doctor"
+                app:layout_column="1"
+                app:layout_columnWeight="1"
+                app:layout_gravity="center|fill"
+                app:layout_row="0"
+                app:layout_rowWeight="1"
+                app:srcCompat="@drawable/doctor_service" />
+
+            <ImageView
+                android:id="@+id/_electricianService"
+                android:layout_width="100dp"
+                android:layout_height="120dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginRight="20dp"
+                android:foregroundGravity="fill"
+                android:tag="Electrician"
+                app:layout_column="2"
+                app:layout_columnWeight="1"
+                app:layout_gravity="center|fill"
+                app:layout_row="0"
+                app:layout_rowWeight="1"
+                app:srcCompat="@drawable/electrician_service" />
+
+            <ImageView
+                android:id="@+id/_plumberService"
+                android:layout_width="100dp"
+                android:layout_height="120dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="4dp"
+                android:layout_marginBottom="4dp"
+                android:foregroundGravity="center|fill"
+                android:tag="Plumber"
+                app:layout_column="0"
+                app:layout_columnWeight="1"
+                app:layout_gravity="center|fill"
+                app:layout_row="1"
+                app:layout_rowWeight="1"
+                app:srcCompat="@drawable/plumber_service" />
+
+            <ImageView
+                android:id="@+id/_labourServices"
+                android:layout_width="100dp"
+                android:layout_height="120dp"
+                android:layout_marginTop="4dp"
+                android:layout_marginBottom="4dp"
+                android:foregroundGravity="fill"
+                android:tag="Labour"
+                app:layout_column="1"
+                app:layout_columnWeight="1"
+                app:layout_gravity="center|fill"
+                app:layout_row="1"
+                app:layout_rowWeight="1"
+                app:srcCompat="@drawable/labour_service" />
+
+            <ImageView
+                android:id="@+id/_homeMaidService"
+                android:layout_width="100dp"
+                android:layout_height="120dp"
+                android:layout_marginTop="4dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="4dp"
+                android:foregroundGravity="fill"
+                android:tag="Home Maid"
+                app:layout_column="2"
+                app:layout_columnWeight="1"
+                app:layout_gravity="center|fill"
+                app:layout_row="1"
+                app:layout_rowWeight="1"
+                app:srcCompat="@drawable/home_maid_service" />
+
+            <ImageView
+                android:id="@+id/_carpenterService"
+                android:layout_width="100dp"
+                android:layout_height="120dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="4dp"
+                android:layout_marginBottom="4dp"
+                android:foregroundGravity="center|fill"
+                android:tag="Carpenter"
+                app:layout_column="0"
+                app:layout_columnWeight="1"
+                app:layout_gravity="center|fill"
+                app:layout_row="2"
+                app:layout_rowWeight="1"
+                app:srcCompat="@drawable/carpenter_service" />
+
+            <ImageView
+                android:id="@+id/_laundryServices"
+                android:layout_width="100dp"
+                android:layout_height="120dp"
+                android:layout_marginTop="4dp"
+                android:layout_marginBottom="4dp"
+                android:foregroundGravity="fill"
+                android:tag="Laundry"
+                app:layout_column="1"
+                app:layout_columnWeight="1"
+                app:layout_gravity="center|fill"
+                app:layout_row="2"
+                app:layout_rowWeight="1"
+                app:srcCompat="@drawable/laundry_service" />
+
+            <ImageView
+                android:id="@+id/_carWashService"
+                android:layout_width="100dp"
+                android:layout_height="120dp"
+                android:layout_marginTop="4dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="4dp"
+                android:foregroundGravity="fill"
+                android:tag="Car Wash"
+                app:layout_column="2"
+                app:layout_columnWeight="1"
+                app:layout_gravity="center|fill"
+                app:layout_row="2"
+                app:layout_rowWeight="1"
+                app:srcCompat="@drawable/car_wash_service" />
+
+            <ImageView
+                android:id="@+id/_autoRepairService"
+                android:layout_width="100dp"
+                android:layout_height="120dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="4dp"
+                android:layout_marginBottom="4dp"
+                android:foregroundGravity="center|fill"
+                android:tag="Auto Repair"
+                app:layout_column="0"
+                app:layout_columnWeight="1"
+                app:layout_gravity="center|fill"
+                app:layout_row="3"
+                app:layout_rowWeight="1"
+                app:srcCompat="@drawable/auto_repair_service" />
+
+            <ImageView
+                android:id="@+id/_bikeRepairService"
+                android:layout_width="100dp"
+                android:layout_height="120dp"
+                android:layout_marginTop="4dp"
+                android:layout_marginBottom="4dp"
+                android:foregroundGravity="fill"
+                android:tag="Bike Repair"
+                app:layout_column="1"
+                app:layout_columnWeight="1"
+                app:layout_gravity="center|fill"
+                app:layout_row="3"
+                app:layout_rowWeight="1"
+                app:srcCompat="@drawable/bike_repaire_service" />
+
+            <ImageView
+                android:id="@+id/_painterService"
+                android:layout_width="100dp"
+                android:layout_height="120dp"
+                android:layout_marginTop="4dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="4dp"
+                android:foregroundGravity="fill"
+                android:tag="Painter"
+                app:layout_column="2"
+                app:layout_columnWeight="1"
+                app:layout_gravity="center|fill"
+                app:layout_row="3"
+                app:layout_rowWeight="1"
+                app:srcCompat="@drawable/painter_service" />
+
+            <ImageView
+                android:id="@+id/_caretakerService"
+                android:layout_width="100dp"
+                android:layout_height="120dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="4dp"
+                android:layout_marginBottom="4dp"
+                android:foregroundGravity="center|fill"
+                android:tag="Caretaker"
+                app:layout_column="0"
+                app:layout_columnWeight="1"
+                app:layout_gravity="center|fill"
+                app:layout_row="4"
+                app:layout_rowWeight="1"
+                app:srcCompat="@drawable/caretaker_service" />
+
+            <ImageView
+                android:id="@+id/_babysitterService"
+                android:layout_width="100dp"
+                android:layout_height="120dp"
+                android:layout_marginTop="4dp"
+                android:layout_marginBottom="4dp"
+                android:foregroundGravity="fill"
+                android:tag="Babysitter"
+                app:layout_column="1"
+                app:layout_columnWeight="1"
+                app:layout_gravity="center|fill"
+                app:layout_row="4"
+                app:layout_rowWeight="1"
+                app:srcCompat="@drawable/babysitter_service" />
+
+            <ImageView
+                android:id="@+id/_lawyerService"
+                android:layout_width="100dp"
+                android:layout_height="120dp"
+                android:layout_marginTop="4dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="4dp"
+                android:foregroundGravity="fill"
+                android:tag="Lawyer"
+                app:layout_column="2"
+                app:layout_columnWeight="1"
+                app:layout_gravity="center|fill"
+                app:layout_row="4"
+                app:layout_rowWeight="1"
+                app:srcCompat="@drawable/lawyer_service" />
+
+            <ImageView
+                android:id="@+id/_acService"
+                android:layout_width="100dp"
+                android:layout_height="120dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="4dp"
+                android:layout_marginBottom="4dp"
+                android:foregroundGravity="center|fill"
+                android:tag="AC Service"
+                app:layout_column="0"
+                app:layout_columnWeight="1"
+                app:layout_gravity="center|fill"
+                app:layout_row="5"
+                app:layout_rowWeight="1"
+                app:srcCompat="@drawable/ac_service_rest" />
+
+        </androidx.gridlayout.widget.GridLayout>
+
+    </LinearLayout>
+</ScrollView>

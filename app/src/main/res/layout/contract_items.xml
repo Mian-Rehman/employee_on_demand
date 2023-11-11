@@ -1,0 +1,500 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout3"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp"
+    android:background="@drawable/layout_strock"
+    android:orientation="vertical"
+    android:paddingLeft="5dp"
+    android:paddingTop="5dp"
+    android:paddingRight="5dp"
+    app:layout_constraintBottom_toTopOf="@+id/guideline18"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    tools:ignore="UnknownIdInLayout">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/contract_item_top_background"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/keepcalm_medium"
+            android:paddingLeft="20dp"
+            android:paddingTop="10dp"
+            android:paddingRight="20dp"
+            android:text="Consumer"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_gravity="center_vertical"
+            android:foregroundGravity="center_vertical"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            tools:layout_editor_absoluteY="40dp">
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/_consumerProfileItem"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center_vertical"
+                android:background="@drawable/imagebackfile"
+                android:padding="2dp"
+                android:src="@drawable/ic_enter_profile_icon"
+                app:layout_constraintBottom_toTopOf="@+id/linearLayout2"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:shapeAppearanceOverlay="@style/Circular"
+                app:strokeColor="#980202"
+                tools:ignore="MissingConstraints" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="3dp"
+                android:foregroundGravity="center_vertical"
+                android:gravity="center_vertical"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/_consumerUsernameItem"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="5dp"
+                    android:fontFamily="@font/keepcalm_medium"
+                    android:text="Username"
+                    android:textColor="@color/white"
+                    android:textSize="12sp"
+                    app:autoSizeTextType="uniform" />
+
+                <TextView
+                    android:id="@+id/_consumerCnicNoItem"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:fontFamily="@font/keepcalm_medium"
+                    android:text="CNIC Number"
+                    android:textColor="@color/white"
+                    android:textSize="12sp"
+                    app:autoSizeTextType="uniform" />
+
+                <ScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/_consumerAddressItem"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="5dp"
+                            android:layout_marginLeft="5dp"
+                            android:fontFamily="@font/keepcalm_medium"
+                            android:text="Address"
+                            android:textColor="@color/white"
+                            android:textSize="12sp"
+                            app:autoSizeTextType="uniform" />
+                    </LinearLayout>
+                </ScrollView>
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/keepcalm_medium"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:text="Service Provider"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            tools:layout_editor_absoluteY="110dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_gravity="center_vertical"
+            android:foregroundGravity="center_vertical"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:paddingBottom="10dp"
+            tools:layout_editor_absoluteY="140dp">
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/_spProfileItem"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center_vertical"
+                android:background="@drawable/imagebackfile"
+                android:padding="2dp"
+                android:src="@drawable/ic_enter_profile_icon"
+                app:layout_constraintBottom_toTopOf="@+id/linearLayout2"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:shapeAppearanceOverlay="@style/Circular"
+                app:strokeColor="#980202"
+                tools:ignore="MissingConstraints" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="3dp"
+                android:foregroundGravity="center_vertical"
+                android:gravity="center_vertical"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/_spUsernameItem"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:text="Username"
+                    android:textColor="#FFFFFF"
+                    android:textSize="12sp"
+                    app:autoSizeTextType="uniform" />
+
+                <TextView
+                    android:id="@+id/_spCnicNoItem"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:fontFamily="@font/keepcalm_medium"
+                    android:text="CNIC Number"
+                    android:textColor="@color/white"
+                    android:textSize="12sp"
+                    app:autoSizeTextType="uniform" />
+
+                <ScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical" >
+
+                        <TextView
+                            android:id="@+id/_spAddressItem"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="5dp"
+                            android:layout_marginLeft="5dp"
+                            android:fontFamily="@font/keepcalm_medium"
+                            android:text="Address"
+                            android:textColor="@color/white"
+                            android:textSize="12sp"
+                            app:autoSizeTextType="uniform" />
+                    </LinearLayout>
+                </ScrollView>
+
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toStartOf="@+id/guideline16"
+        app:layout_constraintStart_toStartOf="@+id/guideline15"
+        app:layout_constraintTop_toTopOf="@+id/guideline18">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginBottom="10dp"
+            android:orientation="horizontal"
+            android:visibility="gone">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:text="Consumer "
+                android:textColor="@color/myFav"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:text="Service Provider "
+                android:textColor="@color/myFav"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginBottom="10dp"
+            android:orientation="horizontal"
+            android:visibility="gone">
+
+            <ImageView
+                android:id="@+id/_consumerCnicPicItem"
+                android:layout_width="80dp"
+                android:layout_height="60dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/placeholder"
+                tools:ignore="VectorDrawableCompat" />
+
+            <ImageView
+                android:id="@+id/_spCnicPicItem"
+                android:layout_width="80dp"
+                android:layout_height="60dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/placeholder"
+                tools:ignore="VectorDrawableCompat" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginBottom="5dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingRight="15dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="0dp"
+                android:layout_weight="0.55"
+                android:fontFamily="@font/keepcalm_medium"
+                android:gravity="center_vertical"
+                android:paddingLeft="20dp"
+                android:text="Job Budget"
+                android:textColor="@color/myFav"
+                android:textColorHint="@color/myFav"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/_contractBudgetItem"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginTop="0dp"
+                android:layout_weight="0.4"
+                android:background="@drawable/edittext_background"
+                android:fontFamily="sans-serif-medium"
+                android:gravity="center_vertical"
+                android:paddingLeft="20dp"
+                android:paddingTop="10dp"
+                android:paddingRight="20dp"
+                android:paddingBottom="10dp"
+                android:textColor="@color/white"
+                android:textColorHint="@color/white"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginBottom="5dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingRight="15dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginTop="0dp"
+                android:layout_weight="0.55"
+                android:fontFamily="@font/keepcalm_medium"
+                android:gravity="center_vertical"
+                android:paddingLeft="20dp"
+                android:text="Job Time"
+                android:textColor="@color/myFav"
+                android:textColorHint="@color/myFav"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/_contractTimeItem"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginTop="0dp"
+                android:layout_weight="0.4"
+                android:background="@drawable/edittext_background"
+                android:fontFamily="sans-serif-medium"
+                android:gravity="center_vertical"
+                android:paddingLeft="20dp"
+                android:paddingTop="10dp"
+                android:paddingRight="20dp"
+                android:paddingBottom="10dp"
+                android:textColor="@color/white"
+                android:textColorHint="@color/white"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginBottom="10dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingRight="15dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginTop="0dp"
+                android:layout_weight="0.55"
+                android:fontFamily="@font/keepcalm_medium"
+                android:gravity="center_vertical"
+                android:paddingLeft="20dp"
+                android:text="Job Description"
+                android:textColor="@color/myFav"
+                android:textColorHint="@color/myFav"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/_contractWorkplaceItem"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginTop="0dp"
+                android:layout_weight="0.4"
+                android:background="@drawable/edittext_background"
+                android:fontFamily="sans-serif-medium"
+                android:gravity="center_vertical"
+                android:paddingLeft="20dp"
+                android:paddingTop="10dp"
+                android:paddingRight="20dp"
+                android:paddingBottom="10dp"
+                android:scrollbars="vertical"
+                android:textColor="@color/white"
+                android:textColorHint="@color/white"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/_buttonLayoutItem"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal"
+            android:visibility="gone">
+
+            <Button
+                android:id="@+id/_rejectContractButton"
+                android:layout_width="125dp"
+                android:layout_height="60dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/button_background"
+                android:fontFamily="@font/keepcalm_medium"
+                android:paddingRight="4dp"
+                android:paddingBottom="8dp"
+                android:text="Reject"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                android:visibility="visible"
+                app:backgroundTint="#E30000" />
+
+            <Button
+                android:id="@+id/_acceptContractButton"
+                android:layout_width="125dp"
+                android:layout_height="60dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/button_background"
+                android:fontFamily="@font/keepcalm_medium"
+                android:paddingRight="4dp"
+                android:paddingBottom="8dp"
+                android:text="Accept"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                android:visibility="visible" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/_endContractButton"
+            android:layout_width="200dp"
+            android:layout_height="70dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/button_background"
+            android:fontFamily="@font/keepcalm_medium"
+            android:paddingRight="4dp"
+            android:paddingBottom="8dp"
+            android:text="End Contract"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/_notifyStatus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginEnd="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="15dp"
+            android:fontFamily="@font/keepcalm_medium"
+            android:gravity="right"
+            android:text="Status"
+            android:textColor="@color/myFav"
+            android:textSize="14sp"
+            android:textStyle="italic" />
+
+    </LinearLayout>
+</LinearLayout>

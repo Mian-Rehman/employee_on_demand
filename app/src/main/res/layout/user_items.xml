@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="160dp"
+    android:background="@drawable/postbgimage"
+    android:gravity="center_vertical"
+    android:orientation="horizontal">
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/_spProfilePic"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center_vertical"
+        android:layout_marginStart="25dp"
+        android:layout_marginLeft="25dp"
+        android:background="@drawable/imagebackfile"
+        android:padding="3dp"
+        android:src="@drawable/ic_enter_profile_icon"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:shapeAppearanceOverlay="@style/Circular"
+        app:strokeColor="@color/myFavTealLight"
+        app:strokeWidth="3dp"
+        tools:ignore="MissingConstraints" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginBottom="25dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/_spUsername"
+            android:layout_width="match_parent"
+            android:layout_height="24dp"
+            android:fontFamily="@font/keepcalm_medium"
+            android:text="Muhammad Usman Sadiq"
+            android:textColor="@color/myFav"
+            app:autoSizeMaxTextSize="16sp"
+            app:autoSizeTextType="uniform" />
+
+        <TextView
+            android:id="@+id/_spCity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/keepcalm_medium"
+            android:text="Faisalabad"
+            android:textColor="@color/myFav"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/_spProfession"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/keepcalm_medium"
+            android:text="Home Tutor"
+            android:textColor="@color/myFav"
+            android:textSize="12sp" />
+
+        <RatingBar
+            android:id="@+id/_userRatingItem"
+            style="@android:style/Widget.DeviceDefault.RatingBar.Small"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:layout_gravity="top"
+            android:foregroundGravity="top"
+            android:isIndicator="true"
+            android:minHeight="30dp"
+            android:paddingTop="2dp"
+            android:paddingBottom="5dp"
+            android:transformPivotX="0dp"
+            android:transformPivotY="0dp" />
+
+        <TextView
+            android:id="@+id/_viewSpProfile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/keepcalm_medium"
+            android:gravity="right"
+            android:paddingRight="15dp"
+            android:text="View Profile"
+            android:textColor="#1835C1"
+            android:textSize="12sp"
+            android:textStyle="bold|italic" />
+
+    </LinearLayout>
+</LinearLayout>

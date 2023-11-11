@@ -1,0 +1,416 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    style='""'
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_horizontal"
+    android:layout_marginTop="0dp"
+    android:background="@drawable/layout_background"
+    android:paddingTop="0dp"
+    tools:context=".Activities.SignUpActivity"
+    tools:ignore="SpeakableTextPresentCheck">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        android:orientation="vertical">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="365dp">
+
+
+            <View
+                android:id="@+id/view11"
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:background="@drawable/background_file"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:ignore="MissingConstraints" />
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="0dp"
+                android:layout_height="365dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/view9"
+                app:srcCompat="@drawable/login_background"
+                tools:ignore="UnknownId" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="60dp"
+                android:fontFamily="@font/keepcalm_medium"
+                android:shadowColor="#606060"
+                android:text="Employee On Demand"
+                android:textColor="#FFFFFF"
+                android:textSize="26sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toTopOf="@+id/_profileimage"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/_profileimage"
+                android:layout_width="125dp"
+                android:layout_height="125dp"
+                android:layout_marginBottom="8dp"
+                android:background="@drawable/imagebackfile"
+                android:padding="7dp"
+                android:src="@drawable/ic_enter_profile_icon"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:shapeAppearanceOverlay="@style/Circular"
+                app:srcCompat="@drawable/ic_enter_profile_icon"
+                app:strokeColor="@color/myFavTeal"
+                app:strokeWidth="5dp"
+                tools:ignore="VectorDrawableCompat"
+                tools:srcCompat="@drawable/ic_enter_profile_icon" />
+
+            <ImageView
+                android:id="@+id/_homeTutor"
+                android:layout_width="75dp"
+                android:layout_height="0dp"
+                android:alpha="0.0"
+                android:visibility="gone"
+                app:layout_constraintStart_toEndOf="@+id/_profileimage"
+                app:layout_constraintTop_toTopOf="@+id/_profileimage"
+                app:srcCompat="@drawable/placeholder"
+                tools:ignore="VectorDrawableCompat" />
+
+            <ImageView
+                android:id="@+id/_signupBackButton"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/ic_baseline_arrow_back_24" />
+
+            <androidx.constraintlayout.widget.Guideline
+                android:id="@+id/guideline31"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                app:layout_constraintGuide_percent="0.0" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/_hintText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="20dp"
+                android:gravity="center"
+                android:text="Touch First Name to Click CNIC picture to enter the following details"
+                android:textColor="@color/myFav"
+                android:textSize="17sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/_fName"
+                android:layout_width="match_parent"
+                android:layout_height="75dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="17dp"
+                android:background="@drawable/edittext_background"
+                android:drawableLeft="@drawable/ic_man_icon"
+                android:drawablePadding="10dp"
+                android:fontFamily="@font/keepcalm_medium"
+                android:gravity="center_vertical"
+                android:paddingLeft="15dp"
+                android:paddingRight="20dp"
+                android:paddingBottom="4dp"
+                android:scrollbars="horizontal"
+                android:text="Enter First Name"
+                android:textColor="@color/white"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/_lName"
+                android:layout_width="match_parent"
+                android:layout_height="75dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="17dp"
+                android:background="@drawable/edittext_background"
+                android:drawableLeft="@drawable/ic_man_icon"
+                android:drawablePadding="10dp"
+                android:fontFamily="@font/keepcalm_medium"
+                android:gravity="center_vertical"
+                android:paddingLeft="15dp"
+                android:paddingRight="20dp"
+                android:paddingBottom="4dp"
+                android:scrollbars="horizontal"
+                android:text="Enter Last Name"
+                android:textColor="@color/white"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/_cnicNo"
+                android:layout_width="match_parent"
+                android:layout_height="75dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="17dp"
+                android:background="@drawable/edittext_background"
+                android:drawableLeft="@drawable/ic_cnic_icon"
+                android:drawablePadding="10dp"
+                android:fontFamily="@font/keepcalm_medium"
+                android:gravity="center_vertical"
+                android:paddingLeft="15dp"
+                android:paddingRight="20dp"
+                android:paddingBottom="4dp"
+                android:scrollbars="horizontal"
+                android:text="Enter CNIC Number"
+                android:textColor="@color/white"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/_dateOfBirth"
+                android:layout_width="match_parent"
+                android:layout_height="75dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="17dp"
+                android:background="@drawable/edittext_background"
+                android:drawableLeft="@drawable/ic_date_of_birth_icon"
+                android:drawablePadding="10dp"
+                android:fontFamily="@font/keepcalm_medium"
+                android:gravity="center_vertical"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingBottom="4dp"
+                android:text="Date of Birth"
+                android:textColor="@color/white"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/_eMail"
+                android:layout_width="match_parent"
+                android:layout_height="75dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="17dp"
+                android:background="@drawable/edittext_background"
+                android:drawableLeft="@drawable/ic_man_icon"
+                android:drawablePadding="10dp"
+                android:ems="10"
+                android:fontFamily="@font/keepcalm_medium"
+                android:hint="Enter E-mail Address"
+                android:inputType="textWebEmailAddress"
+                android:paddingLeft="15dp"
+                android:paddingRight="20dp"
+                android:paddingBottom="4dp"
+                android:scrollbars="horizontal"
+                android:textColor="@color/white"
+                android:textColorHint="@color/white"
+                android:textSize="20sp"
+                android:textStyle="normal" />
+
+            <EditText
+                android:id="@+id/_password"
+                android:layout_width="match_parent"
+                android:layout_height="75dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="17dp"
+                android:background="@drawable/edittext_background"
+                android:drawableLeft="@drawable/ic_lock_icon"
+                android:drawablePadding="10dp"
+                android:ems="10"
+                android:fontFamily="@font/keepcalm_medium"
+                android:hint="Enter Password"
+                android:inputType="textPassword"
+                android:paddingLeft="15dp"
+                android:paddingRight="20dp"
+                android:paddingBottom="4dp"
+                android:scrollbars="horizontal"
+                android:textColor="@color/white"
+                android:textColorHint="@color/white"
+                android:textSize="20sp"
+                android:textStyle="normal" />
+
+            <Spinner
+                android:id="@+id/_gender"
+                style="@style/spinner_style"
+                android:layout_width="match_parent"
+                android:layout_height="75dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="17dp"
+                android:background="@drawable/edittext_background"
+                android:paddingLeft="5dp"
+                android:scrollbars="horizontal"
+                android:spinnerMode="dialog" />
+
+            <EditText
+                android:id="@+id/_phoneNo"
+                android:layout_width="match_parent"
+                android:layout_height="75dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="17dp"
+                android:background="@drawable/edittext_background"
+                android:drawableLeft="@drawable/ic_phone_icon"
+                android:drawablePadding="10dp"
+                android:ems="10"
+                android:fontFamily="@font/keepcalm_medium"
+                android:hint="Enter Phone Number"
+                android:inputType="numberDecimal"
+                android:paddingLeft="15dp"
+                android:paddingRight="20dp"
+                android:paddingBottom="4dp"
+                android:scrollbars="horizontal"
+                android:textColor="@color/white"
+                android:textColorHint="@color/white"
+                android:textSize="20sp"
+                android:textStyle="normal" />
+
+            <Spinner
+                android:id="@+id/_province"
+                style="@style/spinner_style"
+                android:layout_width="match_parent"
+                android:layout_height="75dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="17dp"
+                android:background="@drawable/edittext_background"
+                android:paddingLeft="5dp"
+                android:scrollbars="horizontal"
+                android:spinnerMode="dialog" />
+
+            <Spinner
+                android:id="@+id/_city"
+                style="@style/spinner_style"
+                android:layout_width="match_parent"
+                android:layout_height="75dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="17dp"
+                android:background="@drawable/edittext_background"
+                android:paddingLeft="5dp"
+                android:scrollbars="horizontal"
+                android:spinnerMode="dialog" />
+
+            <Spinner
+                android:id="@+id/_profession"
+                android:layout_width="match_parent"
+                android:layout_height="75dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="17dp"
+                android:background="@drawable/edittext_background"
+                android:paddingLeft="5dp"
+                android:scrollbars="horizontal"
+                android:spinnerMode="dialog" />
+
+            <EditText
+                android:id="@+id/_address"
+                android:layout_width="match_parent"
+                android:layout_height="75dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="17dp"
+                android:background="@drawable/edittext_background"
+                android:drawableLeft="@drawable/ic_address_icon"
+                android:drawablePadding="10dp"
+                android:ems="10"
+                android:fontFamily="@font/keepcalm_medium"
+                android:hint="Enter Your Address"
+                android:inputType="textPersonName"
+                android:paddingLeft="15dp"
+                android:paddingRight="20dp"
+                android:paddingBottom="4dp"
+                android:scrollbars="horizontal"
+                android:textColor="@color/white"
+                android:textColorHint="@color/white"
+                android:textSize="20sp"
+                android:textStyle="normal" />
+
+            <EditText
+                android:id="@+id/_ratePerDay"
+                android:layout_width="match_parent"
+                android:layout_height="75dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="17dp"
+                android:background="@drawable/edittext_background"
+                android:drawableLeft="@drawable/ic_enter_rate_icon"
+                android:drawablePadding="10dp"
+                android:ems="10"
+                android:fontFamily="@font/keepcalm_medium"
+                android:hint="Enter Rate Per Day"
+                android:inputType="numberDecimal"
+                android:paddingLeft="15dp"
+                android:paddingRight="20dp"
+                android:paddingBottom="4dp"
+                android:scrollbars="horizontal"
+                android:textColor="@color/white"
+                android:textColorHint="@color/white"
+                android:textSize="20sp"
+                android:textStyle="normal" />
+
+            <EditText
+                android:id="@+id/_skillsDetails"
+                android:layout_width="match_parent"
+                android:layout_height="75dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="17dp"
+                android:background="@drawable/edittext_background"
+                android:drawableLeft="@drawable/ic_description_icon"
+                android:drawablePadding="10dp"
+                android:ems="10"
+                android:fontFamily="@font/keepcalm_medium"
+                android:hint="Enter Description"
+                android:inputType="textPersonName"
+                android:paddingLeft="15dp"
+                android:paddingRight="20dp"
+                android:paddingBottom="4dp"
+                android:scrollbars="horizontal"
+                android:textColor="@color/white"
+                android:textColorHint="@color/white"
+                android:textSize="20sp"
+                android:textStyle="normal" />
+
+            <Button
+                android:id="@+id/_signUpButton"
+                android:layout_width="220dp"
+                android:layout_height="65dp"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:background="@drawable/button_background"
+                android:backgroundTintMode="src_in"
+                android:fontFamily="@font/keepcalm_medium"
+                android:gravity="center"
+                android:paddingLeft="0dp"
+                android:paddingTop="0dp"
+                android:paddingRight="0dp"
+                android:paddingBottom="8dp"
+                android:text="Sign Up"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textSize="24sp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>
