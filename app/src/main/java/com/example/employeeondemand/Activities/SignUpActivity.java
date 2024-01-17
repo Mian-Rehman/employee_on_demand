@@ -58,6 +58,7 @@ import com.theartofdev.edmodo.cropper.CropImageView;
 import java.io.InputStream;
 import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.Map;
 import java.util.Random;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
@@ -94,6 +95,7 @@ public class SignUpActivity extends AppCompatActivity  {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_sign_up);
 
+
         _signupBackButton = findViewById(R.id._signupBackButton);
         imageView = findViewById(R.id._homeTutor);
         _profileimage = findViewById(R.id._profileimage);
@@ -129,7 +131,7 @@ public class SignUpActivity extends AppCompatActivity  {
         _fname.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                captureImage(3,2);
+//                captureImage(3,2);
             }
         });
         _profileimage.setOnClickListener(new View.OnClickListener() {
@@ -195,8 +197,16 @@ public class SignUpActivity extends AppCompatActivity  {
                 eMail = _eMail.getText().toString().trim();
                 password = _password.getText().toString().trim();
 
-                if (username =="Enter First Name" && username.length()<1 && _lname.getText().length()<1 && _cnicNo.getText().length()<1 && _dateOfBirth.getText().length()<1
-                        &&_eMail.getText().length() < 1 && _password.getText().length() < 1 && _phoneNo.getText().length() < 1 && _ratePerDay.getText().length() < 1 && _address.getText().length()<1) {
+                if (username == "Enter First Name"
+                        && username.length() < 1
+                        && _lname.getText().length()<1
+                        && _cnicNo.getText().length()<1
+                        && _dateOfBirth.getText().length()<1
+                        &&_eMail.getText().length() < 1
+                        && _password.getText().length() < 1
+                        && _phoneNo.getText().length() < 1
+                        && _ratePerDay.getText().length() < 1
+                        && _address.getText().length()<1) {
 
                     Toast.makeText(SignUpActivity.this, "Enter All Values", Toast.LENGTH_SHORT).show();
 
@@ -212,19 +222,39 @@ public class SignUpActivity extends AppCompatActivity  {
 
                     }
 
-                    if (eMail.matches(emailpattern)) {
-
-                    } else {
-
-                        errorMessage = errorMessage + "Invalid e-mail\n";
-
-                    }
+//                    if (eMail.matches(emailpattern)) {
+//
+//                    } else {
+//
+//                        errorMessage = errorMessage + "Invalid e-mail\n";
+//
+//                    }
                     Toast.makeText(SignUpActivity.this, errorMessage, Toast.LENGTH_SHORT).show();
                 }
             }
         });
 
 
+    }
+
+    private void testData() {
+        FirebaseDatabase database = FirebaseDatabase.getInstance();
+        DatabaseReference myRef = database.getReference("message");
+
+        myRef.setValue("Hello, World!")
+                .addOnCompleteListener(new OnCompleteListener<Void>() {
+                    @Override
+                    public void onComplete(@NonNull Task<Void> task) {
+                        if (task.isSuccessful()){
+                            Toast.makeText(SignUpActivity.this, "saved", Toast.LENGTH_SHORT).show();
+                        }
+                    }
+                }).addOnFailureListener(new OnFailureListener() {
+                    @Override
+                    public void onFailure(@NonNull Exception e) {
+                        Toast.makeText(SignUpActivity.this, e.getMessage().toString(), Toast.LENGTH_SHORT).show();
+                    }
+                });
     }
 
 

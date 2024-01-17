@@ -1,13 +1,13 @@
 {
   "project_info": {
-    "project_number": "657410378254",
-    "project_id": "employee-on-demand-df7ca",
-    "storage_bucket": "employee-on-demand-df7ca.appspot.com"
+    "project_number": "473599299999",
+    "project_id": "demand-7f34f",
+    "storage_bucket": "demand-7f34f.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:657410378254:android:9b98d642de2ca950b44a5f",
+        "mobilesdk_app_id": "1:473599299999:android:7fa5c2beafb0ceb1692daa",
         "android_client_info": {
           "package_name": "com.example.employeeondemand"
         }
@@ -15,7 +15,7 @@
       "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyCmg3F-Lv1Q0QbDjZ6g5_intmZkEtKARYI"
+          "current_key": "AIzaSyCJwsw67_Rly9thRUFEL-l_xC93G2-vlLk"
         }
       ],
       "services": {

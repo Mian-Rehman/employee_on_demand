@@ -123,7 +123,7 @@
                 android:textSize="17sp"
                 android:textStyle="bold|italic" />
 
-            <TextView
+            <EditText
                 android:id="@+id/_fName"
                 android:layout_width="match_parent"
                 android:layout_height="75dp"
@@ -139,11 +139,12 @@
                 android:paddingRight="20dp"
                 android:paddingBottom="4dp"
                 android:scrollbars="horizontal"
-                android:text="Enter First Name"
+                android:hint="Enter First Name"
+                android:textColorHint="@color/white"
                 android:textColor="@color/white"
                 android:textSize="20sp" />
 
-            <TextView
+            <EditText
                 android:id="@+id/_lName"
                 android:layout_width="match_parent"
                 android:layout_height="75dp"
@@ -159,11 +160,12 @@
                 android:paddingRight="20dp"
                 android:paddingBottom="4dp"
                 android:scrollbars="horizontal"
-                android:text="Enter Last Name"
+                android:hint="Enter Last Name"
                 android:textColor="@color/white"
+                android:textColorHint="@color/white"
                 android:textSize="20sp" />
 
-            <TextView
+            <EditText
                 android:id="@+id/_cnicNo"
                 android:layout_width="match_parent"
                 android:layout_height="75dp"
@@ -179,11 +181,12 @@
                 android:paddingRight="20dp"
                 android:paddingBottom="4dp"
                 android:scrollbars="horizontal"
-                android:text="Enter CNIC Number"
+                android:hint="Enter CNIC Number"
                 android:textColor="@color/white"
+                android:textColorHint="@color/white"
                 android:textSize="20sp" />
 
-            <TextView
+            <EditText
                 android:id="@+id/_dateOfBirth"
                 android:layout_width="match_parent"
                 android:layout_height="75dp"
@@ -198,7 +201,8 @@
                 android:paddingLeft="20dp"
                 android:paddingRight="20dp"
                 android:paddingBottom="4dp"
-                android:text="Date of Birth"
+                android:hint="Date of Birth"
+                android:textColorHint="@color/white"
                 android:textColor="@color/white"
                 android:textSize="20sp" />
 
@@ -274,15 +278,14 @@
                 android:ems="10"
                 android:fontFamily="@font/keepcalm_medium"
                 android:hint="Enter Phone Number"
-                android:inputType="numberDecimal"
                 android:paddingLeft="15dp"
                 android:paddingRight="20dp"
                 android:paddingBottom="4dp"
-                android:scrollbars="horizontal"
                 android:textColor="@color/white"
                 android:textColorHint="@color/white"
                 android:textSize="20sp"
-                android:textStyle="normal" />
+                android:textStyle="normal"
+                />
 
             <Spinner
                 android:id="@+id/_province"
